@@ -148,6 +148,7 @@ export default class Todo extends Component<Props, State> {
                                             value={this.state.currentTodo.status}>
                                         <option value="NEW">NEW</option>
                                         <option value="IN_PROGRESS">IN_PROGRESS</option>
+                                        <option value="CANCELLED">CANCELLED</option>
                                         <option value="DONE">DONE</option>
                                     </select>
                                 </div>
